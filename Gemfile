@@ -1,15 +1,11 @@
 source 'https://rubygems.org'
 
 ruby '2.1.0'
-
 #ruby-gemset=railstutorial_rails_4_0
-
-gem 'therubyracer'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # gem 'rails', '4.0.2'
 gem 'rails', '4.0.2'
-
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
@@ -20,8 +16,7 @@ end
 
 group :production do
   gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
-  
+  gem 'rails_12factor', '0.0.2'  
 end	
 
 # Use SCSS for stylesheets
