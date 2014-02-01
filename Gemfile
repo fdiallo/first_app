@@ -7,6 +7,8 @@ ruby '2.1.0'
 # gem 'rails', '4.0.2'
 gem 'rails', '4.0.2'
 
+gem 'therubyracer'
+
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 
